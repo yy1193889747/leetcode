@@ -12,13 +12,12 @@ public class NiuKe1 {
      */
 
     public static void main(String[] args) {
-        System.out.println(changeNum("RRRRRR"));
+        System.out.println(changeNum("RGBRGB"));
     }
 
     public static int changeNum(String str){
 
         int num = 0;
-        System.out.println(str.length());
         for (int i = 0; i < str.length()-1;) {
             char c = str.charAt(i);
             char d = str.charAt(i + 1);
